@@ -1,0 +1,22 @@
+{
+  "name": "solana-token-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "keygen": "ts-node scripts/keygen.ts",
+    "airdrop": "ts-node scripts/airdrop.ts",
+    "spl_init": "ts-node scripts/spl_init.ts",
+    "spl_mint": "ts-node scripts/spl_mint.ts",
+    "spl_transfer": "ts-node scripts/spl_transfer.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@solana/spl-token": "^0.4.6",
+    "@solana/web3.js": "^1.92.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
